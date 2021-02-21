@@ -1,6 +1,13 @@
 <?php
 namespace TLegasse\ReminderApp\Helper;
 
+/**
+ * Class Route
+ * @package TLegasse\ReminderApp\Helper
+ * CREDIT GOES TO: https://steampixel.de/en/simple-and-elegant-url-routing-with-php/
+ * From that I've added beforeRoute and afterRoute functionalities for hooking in header and footer content.
+ * It's a throw-away project after all haha.
+ */
 class Route
 {
 
