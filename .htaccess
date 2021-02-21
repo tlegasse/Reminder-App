@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+# enable mod_rewrite
+RewriteEngine On
+# redirect to the view folder
+RewriteRule    (.*) public/$1    [L]
+</IfModule>
