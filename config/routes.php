@@ -44,7 +44,7 @@ Route::add('/heartbeat',function(){
 
 
 /**
- * App specific routes
+ * Reminder specific routes
  */
 
 // Our app page
