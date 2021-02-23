@@ -14,7 +14,7 @@ use TLegasse\ReminderApp\User;
     <link rel="stylesheet" href="/css/bootstrap-theme.css">
 </head>
 <body>
-<div class="container"><?php Flash::get(); ?></div>
+<div class="container"><?php echo Flash::get(); ?></div>
 <div class="container">
     <div class="header clearfix">
         <nav>

@@ -5,6 +5,11 @@ namespace TLegasse\ReminderApp\Helper;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 
+/**
+ * Class Email
+ * This class handles emailing.
+ * @package TLegasse\ReminderApp\Helper
+ */
 class Email
 {
     private $recipient;
@@ -39,10 +44,6 @@ class Email
             $mail->send();
         } catch (Exception $e) {
             // Or report trying
-            echo "<pre>";
-            var_dump($e);
-            echo "</pre>";
-            die();
             Flash::set('There was a problem sending the email.');
         }
     }
