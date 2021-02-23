@@ -11,4 +11,4 @@ composer install
 SQL and an example config file are included in the config directory.
 After that you'll also need a minutely cron running. Just point it to https://{URL}/heartbeat
 
-*Unit tests to follow*
+Unit tests to follow
